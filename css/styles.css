@@ -1,0 +1,76 @@
+.header {
+  margin: 5em 0 2.5em;
+}
+
+div#status, span#lives {
+  font-family: 'roboto', sans-serif;
+}
+
+#status {
+  text-align: center;
+  margin-bottom: 0.75em;
+}
+
+.game {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2em;
+  -webkit-box-shadow: 0px 22px 26px -15px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 22px 26px -15px rgba(0,0,0,0.4);
+  box-shadow: 0px 22px 26px -15px rgba(0,0,0,0.4);
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.2em;
+}
+
+a {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  color: black;
+}
+
+h6 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+  margin: 0.2em 0 1em;
+  text-decoration: none;
+  color: grey;
+}
+
+
+
+.background {
+  background: rgb(52, 166, 251);
+  table-layout: fixed;
+  border-spacing: 0;
+}
+.background td { padding: 0; }
+.lava { background: rgb(255, 100, 100); }
+.wall { background: white; }
+.actor { position: absolute; }
+.coin { background: rgb(241, 229, 89); }
+.player { background: rgb(64, 64, 64); }
+.lost .player { background: rgb(160, 64, 64); }
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
